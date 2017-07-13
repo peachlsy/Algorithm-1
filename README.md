@@ -1,3 +1,4 @@
+## Background
 You may of heard of the phrase, “six degrees of separation”, but did you know where it came from?
 It is based on the idea that anyone in the world is more or less separated from anyone else in the
 world by 6 direct acquaintances, i.e., you know someone who knows someone who knows someone ...
