@@ -22,25 +22,63 @@ depending on the characteristics of the graph. In this program, I will implement
 and evaluate how well they perform when representing a friendship graph and computing the average separation between a pair
 of people.
 
-Operations Details
+##Operations Details
 Operations to perform on the implemented graph abstract data type are specified on the command
 line. They are in the following format:
+```
 <operation> [arguments]
+```
 where operation is one of {AV, AE, N, RV, RE, V, E, S, Q} and arguments is for optional arguments
 of some of the operations. The operations take the following form:
-• AV <vertLabel> – add a vertex with label ’vertLabel’ into the graph.
-• AE <srcLabel> <tarLabel> – add an edge with source vertex ’srcLabel’ and target vertex
+
+add a vertex with label ’vertLabel’ into the graph.
+```
+- AV <vertLabel> 
+```
+
+add an edge with source vertex ’srcLabel’ and target vertex
 ’tarLabel’ into the graph.
-• N <vertLabel> – Return a set of neighbours for vertex ’vertLabel’. The ordering of the neighbours
+```
+- AE <srcLabel> <tarLabel>
+```
+
+Return a set of neighbours for vertex ’vertLabel’. The ordering of the neighbours
 does not matter. See below for the required format.
-• RV <vertLabel> – remove vertex ’vertLabel’ from the graph.
-• RE <srcLabel> <tarLabel> – remove edge with source vertex ’srcLabel’ and target vertex ’tarLabel’
+```
+- N <vertLabel>
+```
+
+remove vertex ’vertLabel’ from the graph.
+```
+- RV <vertLabel> 
+```
+
+remove edge with source vertex ’srcLabel’ and target vertex ’tarLabel’
 from the graph.
-• V – prints the vertex set of the graph. See below for the required format. The vertices can be
+```
+- RE <srcLabel> <tarLabel>
+```
+
+prints the vertex set of the graph. See below for the required format. The vertices can be
 printed in any order.
-• E – prints the edge set of the graph. See below for the required format. The edges can be printed
+```
+- V 
+```
+
+prints the edge set of the graph. See below for the required format. The edges can be printed
 in any order.
-• S <vertLabel1> <vertLabel2> – compute the shortest path distance between vertex ’vertLabel1’
+```
+- E 
+```
+
+compute the shortest path distance between vertex ’vertLabel1’
 and vertex ’vertLabel2’. If there is no path between the two vertices, then their distance
 is -1. See below for the required format.
-• Q – quits the program
+```
+- S <vertLabel1> <vertLabel2> 
+```
+
+quits the program
+```
+- Q 
+```
