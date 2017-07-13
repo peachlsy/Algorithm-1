@@ -22,7 +22,26 @@ depending on the characteristics of the graph. In this program, I will implement
 and evaluate how well they perform when representing a friendship graph and computing the average separation between a pair
 of people.
 
-##Operations Details
+## Description
+Implement the undirected graph using the adjacency list and adjacency matrix
+representations. Each representations will be implemented by a data structure. 
+- Create an empty undirected graph.
+- Add a vertex to the graph.
+- Add an edge to the graph.
+- Neighbours of a vertex in the graph.
+- Remove a vertex from the graph.
+- Remove an edge from the graph.
+- Print out the set of vertices of the graph.
+- Print out the set of edges of the graph.
+- Compute the shortest path between a pair of vertices in the graph.
+
+## Data Structure Details
+Graphs can be implemented using a number of data structures. I have implement the graph
+abstract data type using the following data structures:
+- Adjacency list, using an array of linked lists.
+- Adjacency matrix, using a 2D array (an array of arrays).
+
+## Operations Details
 Operations to perform on the implemented graph abstract data type are specified on the command
 line. They are in the following format:
 ```
